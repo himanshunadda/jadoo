@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.easy__fast{
+    margin: 50px 150px;
+    display: flex;
+    
+    width: 100vw;
+    height: 80vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.easy__fast>.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: 50vw;
+    height: 100%;
+    
+}
+.easy__fast>.info>.heading>p{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.easy__fast>.info>.heading>h2{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+.easy__fast>.info>.options{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.easy__fast>.info>.options>.option{
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+.easy__fast>.info>.options>.option:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+
+}
+.easy__fast>.info>.options>.option>.option__info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px 40px;
+}
+.easy__fast>.info>.options>.option>.option__info>p{
+    font-size: 15px;
+    font-family: monospace;
+}
+.option__info>h6{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+
+.option__card_info>.date__guide{
+    text-align: left;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin: 10px 0px;
+    
+
+}
+.date__guide>#guide{
+    background-color: white;
+}
+
+.option__card_info{
+    
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+   align-items: flex-start;
+   
+   background-color: white;
+   
+}
+
+.people{
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    margin:100px 20px;
+    background-color: white;
+    border-radius: 20px;
+}

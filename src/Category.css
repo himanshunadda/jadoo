@@ -1,0 +1,29 @@
+.heading>p{
+font-size: 22px;
+margin: 0;
+padding: 0;
+
+
+
+}
+.heading>h1{
+   font-size: 40px;
+   font-weight: 700;
+   margin: 0;
+   padding: 0;
+
+}
+
+.cards{
+    margin: 75px 220px;
+    display: flex;
+    width: 100%;
+    
+    
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+
+}

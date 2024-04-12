@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .top__destinations{
+    display: flex;
+    flex-direction: column;
+
+    
+} */
+.top__destinations>.heading{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px;
+
+}
+.top__destinations>.heading>p{
+    font-size: 22px;
+}
+.top__destinations>.heading > h2{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.destination__cards{
+    display: flex;
+    justify-content: center;
+    
+
+}
+

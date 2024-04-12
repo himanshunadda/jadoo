@@ -1,0 +1,42 @@
+*{margin: 0;
+padding: 0;}
+
+.card{
+   width: 12vw;
+   height:40vh;
+   display: flex;
+   padding: 10px 20px;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   background-color:rgb(242, 245, 245);
+   border: 0px transparent;
+   border-radius: 15px;
+   gap:0px;
+   cursor: pointer;
+   
+   
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
+    transform: scale(1.05);
+    
+}
+
+
+
+.card > p{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(121, 118, 118);
+    background-color: rgb(242, 245, 245);
+}
+
+.card > h2 {
+    font-size: 18px;
+    margin: 5px 20px;
+    font-weight: 500;
+    background-color: rgb(242, 245, 245);
+}
+

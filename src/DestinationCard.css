@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.destination__card{
+ display: flex;
+ 
+ border-radius :  20px 20px 20px 20px;
+ /* border: 1px solid rgb(237, 178, 178); */
+ 
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ margin: 0px 30px;
+ width: 18vw;
+ height: 50vh;
+ 
+    
+    
+}
+.destination__card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
+    transform: scale(1.05);
+    cursor:pointer;
+    
+}
+
+.destination__card>.trip__info
+{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.trip__info>.place__price{
+    width: 100%;
+   display: flex;
+   gap: 50px;
+   
+   
+}
+.destination__card>image{
+    margin-bottom:0;
+    border-radius: 12px 12px 0px 0px;
+    
+
+}
+.trip__info>.place__price>p{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.trip__info>.time{
+  margin: 0;
+}

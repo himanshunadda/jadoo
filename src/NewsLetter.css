@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.news__letter{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0px;
+}
+.news__letter>.container{
+    
+   
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius : 200px 0 0 0;
+    background-color:rgb(216, 233, 250);
+    
+    
+}
+.heading{
+    margin : 50px 50px;
+    background-color:rgb(216, 233, 250);
+    font-size: 35px;
+    font-family:'Segoe UI';
+    font-weight: 700;
+}
+
+.submit{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    border: 5px solid rgb(218, 218, 244);
+    border-radius : 40px;
+    
+    
+}
+.submit>input{
+    line-height: 2;
+    
+    width: 510px;
+    font-size: 18px;
+    border: 10px solid rgb(239, 239, 247);
+    border-radius: 40px 0px 0px 40px;
+    background-color: rgb(233, 236, 238);
+    margin-right: 10px;
+    
+    
+    
+}
+.submit>.sub__btn{
+    width:200px;
+    height: 50px ;
+    border : 5px solid rgb(42, 42, 42);
+    cursor: pointer;
+    border-radius : 0px 40px 40px 0px;
+    background-color: antiquewhite;
+    
+}
+.sub__btn:hover{
+    background-color: rgb(242, 150, 29);
+}
